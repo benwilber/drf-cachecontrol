@@ -1,5 +1,7 @@
 from django.views.decorators.cache import cache_control
 
+__all__ = ('CacheControlMixin',)
+
 
 class CacheControlMixin(object):
     """Mixin that allows setting Cache-Control options.
